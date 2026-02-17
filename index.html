@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MHS Spanish Club Futsal Tournament</title>
-  <meta name="description" content="Marshall High School Spanish Club Futsal Tournament Fundraiser — March 23, 26, 27, 28. $15/player. Win $500+ (up to $1,000)." />
+  <meta name="description" content="Marshall High School Spanish Club Futsal Tournament Fundraiser — March 23, 26, 27, 28. $15/player. Win $500–$1,000. Open to high school students and adults. Food trucks available." />
   <style>
     :root{
       --bg:#0b0b0b;
@@ -12,7 +12,7 @@
       --panel:#0f0f0f;
       --text:#ffffff;
       --muted:#cfcfcf;
-      --accent:#d62828; /* red */
+      --accent:#d62828;
       --border:rgba(255,255,255,.15);
     }
     *{ box-sizing:border-box; }
@@ -25,7 +25,6 @@
     }
     a{ color: var(--accent); text-decoration: none; }
     a:hover{ text-decoration: underline; }
-
     .wrap{max-width:980px;margin:0 auto;padding:22px}
     .hero{
       border:1px solid var(--border);
@@ -42,26 +41,30 @@
       background: rgba(214,40,40,.15);
       border:1px solid var(--accent);
       font-weight:700;
-      color:#fff;
       width:fit-content;
     }
     h1{margin:0;font-size: clamp(28px, 4vw, 44px)}
     .sub{color:var(--muted);font-size:16px}
-
+    .highlight{
+      background: rgba(214,40,40,.12);
+      border:1px solid var(--accent);
+      border-radius:12px;
+      padding:10px 14px;
+      font-weight:800;
+      width:fit-content;
+    }
     .grid{
       display:grid;
       grid-template-columns: 1.2fr .8fr;
       gap:16px;
     }
     @media (max-width: 860px){ .grid{grid-template-columns:1fr} }
-
     .card{
       border:1px solid var(--border);
       background: var(--panel);
       border-radius:16px;
       padding:18px;
     }
-
     .kvs{display:grid;gap:10px;margin-top:10px}
     .kv{
       display:flex;
@@ -73,7 +76,6 @@
       background:#0b0b0b;
     }
     .kv span:first-child{color:var(--muted)}
-
     .rule{
       border-left:4px solid var(--accent);
       padding:10px 12px;
@@ -81,24 +83,19 @@
       border-radius:12px;
       margin-top:14px;
     }
-
     .ctaRow{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
     .btn{
-      display:inline-block;
       padding:12px 16px;
       border-radius:12px;
       font-weight:800;
       border:1px solid var(--border);
       background:#000;
       color:#fff;
-      text-decoration:none;
     }
     .btn.primary{
       background: var(--accent);
       border:none;
-      color:#fff;
     }
-
     footer{
       margin-top:22px;
       padding-top:14px;
@@ -106,9 +103,9 @@
       font-size:14px;
       color:var(--muted);
       display:flex;
-      flex-wrap:wrap;
       gap:14px;
       justify-content:space-between;
+      flex-wrap:wrap;
     }
   </style>
 </head>
@@ -117,14 +114,18 @@
     <section class="hero">
       <div class="badge">⚽ Marshall High School Spanish Club Fundraiser</div>
       <h1>Futsal Tournament</h1>
+
       <p class="sub">
         Community futsal tournament supporting Marshall High School Spanish Club programs.
         <b>$500 minimum prize</b> — prize pool may increase up to <b>$1,000</b>.
       </p>
 
+      <div class="highlight">👥 Open to High School Students & Adults</div>
+      <div class="highlight">🌮 Food Trucks Available</div>
+
       <div class="grid">
         <div class="card">
-          <h2 style="margin:0 0 8px;">Event Details</h2>
+          <h2>Event Details</h2>
 
           <div class="kvs">
             <div class="kv"><span>Dates</span><b>March 23, 26, 27, 28</b></div>
@@ -135,32 +136,26 @@
           </div>
 
           <div class="rule">
+            <b>Age Requirement:</b> Players must be at least a high school freshman.
+            There is <b>no maximum age limit</b> — adults are welcome to participate.
+          </div>
+
+          <div class="rule">
             Teams may include both MHS students and non-MHS players.
             <b>All non-MHS players must complete required forms</b>.
           </div>
 
           <div class="ctaRow">
-            <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScvfiIzF8fLSaUAVg2f1U1ME-bPsknwmy1ESBipg1ibTrGQaw/viewform?usp=header" target="_blank" rel="noopener">Public Registration</a>
-            <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScUEfou9rE2VYaoIJVA9TYdUKZDeMnc85tVsAdOE-eStnmDCw/viewform?usp=header" target="_blank" rel="noopener">MHS Student Registration</a>
+            <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScvfiIzF8fLSaUAVg2f1U1ME-bPsknwmy1ESBipg1ibTrGQaw/viewform?usp=header" target="_blank">Public Registration</a>
+            <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScUEfou9rE2VYaoIJVA9TYdUKZDeMnc85tVsAdOE-eStnmDCw/viewform?usp=header" target="_blank">MHS Student Registration</a>
           </div>
         </div>
 
         <div class="card">
-          <h2 style="margin:0 0 8px;">Contact & Updates</h2>
-
-          <p style="margin:10px 0;">
-            📸 Instagram:
-            <a href="https://instagram.com/mhs.spanish.club.futsal" target="_blank" rel="noopener">@mhs.spanish.club.futsal</a>
-          </p>
-
-          <p style="margin:10px 0;">
-            📧 Email:
-            <a href="mailto:smhsfutsal@gmail.com">smhsfutsal@gmail.com</a>
-          </p>
-
-          <p style="margin:10px 0; color:var(--muted);">
-            Follow the Instagram page for updates, schedules, and announcements.
-          </p>
+          <h2>Contact & Updates</h2>
+          <p>📸 <a href="https://instagram.com/mhs.spanish.club.futsal" target="_blank">@mhs.spanish.club.futsal</a></p>
+          <p>📧 <a href="mailto:smhsfutsal@gmail.com">smhsfutsal@gmail.com</a></p>
+          <p style="color:var(--muted)">Follow Instagram for schedules and updates.</p>
         </div>
       </div>
     </section>
